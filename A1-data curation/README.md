@@ -10,22 +10,16 @@ Documentations for both APIs:
 ## Directory Structure
 
 ```bash
-├── app
-│   ├── css
-│   │   ├── **/*.css
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
+├── CSV
+│   └── en-wikipedia_traffic_200712-202010.csv
+├── JSON
+|   |── pagecounts_desktop-site_200712-201608.json
+|   |── pagecounts_mobile-site_200712-201608.json
+|   |── pageviews_desktop_201507-202010.json
+|   |── pageviews_mobile-app_201507-202010.json
+|   └── pageviews_mobile-web_201507-202010.json
+├── .gitattributes
+├── DATA512-A1_Data_Curation-Jiyu Wang.ipynb
 ├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+└── pageviews_wikipedia.png
 ```
