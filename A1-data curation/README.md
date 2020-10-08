@@ -45,7 +45,7 @@ The created visualization to compare the view counts of different access type fr
 - The mobile counts of pageviews are the sum of both mobile-web and mobile-app visits.
 
 ## License
-This project is under the [MIT License](LICENSE)
+This project is under the [MIT License](https://github.com/jiyuw/DATA_512_jiyuw/blob/main/LICENSE)
 
 Please check [Terms of Use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions) of the Wikimedia Foundation REST API.
 
