@@ -24,7 +24,8 @@ Documentations for both APIs:
 └── pageviews_wikipedia.png
 ```
 ## Data File Info
-The dataset collected has been processed into a [csv file](CSV/en-wikipedia_traffic_200712-202010.csv)
+The dataset collected has been processed into a [csv file](CSV/en-wikipedia_traffic_200712-202010.csv).
+
 Column | Description 
 year | The year of the data point (format: YYYY)
 month | The year of the data point (format: MM)
@@ -44,6 +45,7 @@ The created visualization to compare the view counts of different access type fr
 - The mobile counts of pageviews are the sum of both mobile-web and mobile-app visits.
 
 ## License
-This project is under the [MIT License](./license)
+This project is under the [MIT License](LICENSE)
+
 Please check [Terms of Use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions) of the Wikimedia Foundation REST API.
 
