@@ -19,7 +19,7 @@ Documentations for both APIs:
 │   ├── pageviews_mobile-app_201507-202010.json
 │   └── pageviews_mobile-web_201507-202010.json
 ├── .gitattributes
-├── DATA512-A1_Data_Curation-Jiyu Wang.ipynb
+├── DATA512-A1_Data_Curation-Jiyu_Wang.ipynb
 ├── LICENSE
 ├── README.md
 └── pageviews_wikipedia.png
