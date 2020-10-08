@@ -39,6 +39,8 @@ The dataset collected has been processed into a [csv file](CSV/en-wikipedia_traf
 | pageview_mobile_views | Counts of mobile visits from Pageviews API |
 
 ## Visualization
+The process of collecting data and analyzing is documented in this [Jupyter notebook](DATA512-A1_Data_Curation-Jiyu Wang.ipynb).
+
 The created visualization to compare the view counts of different access type from both APIs is shown below:
 ![view_counts](pageviews_wikipedia.png)
 
