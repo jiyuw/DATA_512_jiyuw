@@ -13,13 +13,37 @@ Documentations for both APIs:
 ├── CSV
 │   └── en-wikipedia_traffic_200712-202010.csv
 ├── JSON
-|   |── pagecounts_desktop-site_200712-201608.json
-|   |── pagecounts_mobile-site_200712-201608.json
-|   |── pageviews_desktop_201507-202010.json
-|   |── pageviews_mobile-app_201507-202010.json
-|   └── pageviews_mobile-web_201507-202010.json
+│   ├── pagecounts_desktop-site_200712-201608.json
+│   ├── pagecounts_mobile-site_200712-201608.json
+│   ├── pageviews_desktop_201507-202010.json
+│   ├── pageviews_mobile-app_201507-202010.json
+│   └── pageviews_mobile-web_201507-202010.json
 ├── .gitattributes
 ├── DATA512-A1_Data_Curation-Jiyu Wang.ipynb
 ├── README.md
 └── pageviews_wikipedia.png
 ```
+## Data File Info
+The dataset collected has been processed into a [csv file](CSV/en-wikipedia_traffic_200712-202010.csv)
+Column | Description 
+year | The year of the data point (format: YYYY)
+month | The year of the data point (format: MM)
+pagecount_all_views | Counts of all visits from Pagecounts API
+pagecount_desktop_views | Counts of desktop visits from Pagecounts API
+pagecount_mobile_views | Counts of mobile visits from Pagecounts API
+pageview_all_views | Counts of all visits from Pageviews API
+pageview_desktop_views | Counts of desktop visits from Pageviews API
+pageview_mobile_views | Counts of mobile visits from Pageviews API
+
+## Visualization
+The created visualization to compare the view counts of different access type from both APIs is shown below:
+![view_counts](pageviews_wikipedia.png)
+
+## Miscellaneous
+- The "pagecount" is the legacy definition of "pageview", which includes automated traffic from self-reported bots, while the "pageview" API filters these bots and only reports human traffic.
+- The mobile counts of pageviews are the sum of both mobile-web and mobile-app visits.
+
+## License
+This project is under the [MIT License](./license)
+Please check [Terms of Use](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions) of the Wikimedia Foundation REST API.
+
