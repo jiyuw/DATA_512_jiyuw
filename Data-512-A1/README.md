@@ -42,6 +42,10 @@ The dataset collected has been processed into a [csv file](CSV/en-wikipedia_traf
 The created visualization to compare the view counts of different access type from both APIs is shown below:
 ![view_counts](pageviews_wikipedia.png)
 
+The counts of pageview is always not larger than the counts of pagecounts, since pageview data excludes visits from spiders/crawlers.
+
+While the total page views stay approximately the same, more and more views are switching from desktop to mobile visits.
+
 ## Miscellaneous
 - The "pagecount" is the legacy definition of "pageview", which includes automated traffic from self-reported bots, while the "pageview" API filters these bots and only reports human traffic.
 - The mobile counts of pageviews are the sum of both mobile-web and mobile-app visits.
