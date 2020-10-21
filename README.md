@@ -5,3 +5,6 @@ Contents of each assignment (including specific README file) can be found in ind
 
 ## A1-Data Curation
 Folder: [A1-Data Curation](Data-512-A1/)
+
+## A2-Data Bias
+Folder: [A2-Data Bias](Data-512-A2/)
