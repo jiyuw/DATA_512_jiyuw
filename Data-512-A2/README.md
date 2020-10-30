@@ -27,6 +27,16 @@ These annotated datasets were used to train machine learning models as part of a
 ## Analysis Result
 The process of data collection and analysis as well as discussions on the result is documented in this [Jupyter notebook](hcds-a2-data-bias.ipynb).
 
+### How consistent are labelling behaviors among workers with different demographic profiles?
+For aggression dataset:
+![aggression](aggression_score_demo.png)
+
+For toxicity dataset:
+![toxicity](toxicity_score_demo.png)
+
+### What is the level of disagreement around certain labels in different datasets?
+For both datasets:
+![comment_mean_var](comment_mean_var.png)
 
 ## License
 This project is under the [MIT License](LICENSE)
