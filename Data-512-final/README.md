@@ -6,4 +6,4 @@ The dataset I am using will be this [dataset](https://www.kaggle.com/c/jigsaw-un
 
 I hope to learn techniques about NLP and know more about human-centered data science after doing this project.
 
-For more details, please check the [notebook](final project preliminary proposal.ipynb)
+For more details, please check the [notebook](final_project_preliminary_proposal.ipynb)
