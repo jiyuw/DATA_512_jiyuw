@@ -8,3 +8,6 @@ Folder: [A1-Data Curation](Data-512-A1/)
 
 ## A2-Data Bias
 Folder: [A2-Data Bias](Data-512-A2/)
+
+## final project
+Folder: [final](Data-512-final/)
